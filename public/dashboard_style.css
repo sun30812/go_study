@@ -1,0 +1,58 @@
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: #e9f6ff;
+}
+
+.nav {
+	text-align: end;
+	border-bottom: 2px solid skyblue;
+}
+
+.nav-item {
+	text-align: right;
+	border: 0px;
+	border-left: 2px solid skyblue;
+	font-size: 23px;
+	font-weight: 100;
+}
+
+.nav-item:hover {
+	background-color: rgba(214, 237, 255, 0.87);
+}
+
+.nav-item:active {
+	border: 0px;
+	background-color: skyblue;
+
+}
+
+#main {
+	font-size: 45px;
+	background: linear-gradient(to right, #78c2f3, #6ed69d);
+  	background-clip: text;
+  	-webkit-background-clip: text;
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
+  	display: inline-block;
+}
+
+.sub {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.menuButton {
+	font-size: 20px;
+	padding: 45px 45px;
+	border: 2px solid skyblue;
+}
+
+.menuButton:hover {
+	background-color: rgba(214, 237, 255, 0.87);
+}
+
+.menuButton:active {
+	color: white;
+	background-color: skyblue;
+}

@@ -1,0 +1,97 @@
+* {
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: #e9f6ff;
+}
+
+.mainView {
+	margin-top: 150px;
+}
+
+#mainWithAnimate {
+	animation-name: slowStart;
+	animation-duration: 1300ms;
+	animation-iteration-count: 1;
+	font-size: 70px;
+	font-weight: 500;
+	background: linear-gradient(45deg, #78c2f3, #6ed69d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+#main {
+	font-size: 70px;
+	font-weight: 500;
+	background: linear-gradient(45deg, #78c2f3, #6ed69d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+#sub {
+	animation-name: slowStart;
+	animation-duration: 1300ms;
+	animation-iteration-count: 1;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+button {
+	font-size: 20px;
+	margin-top: 40px;
+	margin-right: 14px;
+	background-color: transparent;
+	border: 2px solid skyblue;
+	color: skyblue;
+	padding: 6px;
+	border-radius: 5px;
+}
+button:hover {
+	background-color: rgba(214, 237, 255, 0.87);
+}
+button:active {
+	color: white;
+	background-color: skyblue;
+}
+
+#loginComment {
+font-size: 25px;
+}
+
+.loginArea {
+	padding: 10%;
+	margin: 10%;
+	font-size: 25px;
+	border: 2px solid skyblue;
+
+}
+
+#loginInput {
+	border: 2px solid skyblue;
+}
+
+@keyframes slowStart {
+	0% {
+		transform: translate(0,-50px);
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.2;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	75% {
+		opacity: 0.7;
+	}
+	100% {
+		opacity: 1.0;
+	}
+}
