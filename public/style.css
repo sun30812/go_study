@@ -66,11 +66,8 @@ font-size: 25px;
 }
 
 .loginArea {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 10%;
-	font-size: 25px;
-	border: 2px solid skyblue;
+	padding: 12px;
+	font-size: 20px;
 
 }
 

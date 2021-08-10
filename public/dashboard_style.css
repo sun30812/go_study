@@ -8,6 +8,19 @@
 	border-bottom: 2px solid skyblue;
 }
 
+#nav-title {
+	font-size: 30px;
+	border: 0px;
+	font-weight: 500;
+	background: linear-gradient(to right, #78c2f3, #6ed69d);
+  	background-clip: text;
+	-webkit-background-clip: text;
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
+  	display: inline-block;
+}
+
 .nav-item {
 	text-align: right;
 	border: 0px;
@@ -25,7 +38,7 @@
 	background-color: skyblue;
 
 }
-
+/* 해당 스타일에 대한 제거여부를 판단하고 있습니다. */
 #main {
 	font-size: 45px;
 	background: linear-gradient(to right, #78c2f3, #6ed69d);
