@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
   },
   "name": "go_study",
   "version": "0.9.2",
   "description": "공부하자는 공부에 관한 내용을 기록하고 친구들과 공유하는 사이트를 만드는 프로젝트 입니다.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
