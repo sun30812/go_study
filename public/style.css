@@ -41,6 +41,34 @@
 	font-weight: 300;
 }
 
+#updateInfo {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+}
+#updateInfo h2 {
+	margin: 0;
+}
+#updateInfo .updateInfoContent {
+	width: 300px;
+	margin: 100px auto;
+	padding: 20px 10px;
+}
+#updateInfo button {
+	display: inline-block;
+}
+#updateInfo .updateInfoLayer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+
 button {
 	font-size: 20px;
 	margin-top: 40px;
